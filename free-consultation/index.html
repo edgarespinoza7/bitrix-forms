@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Free Consultation Form</title>
+</head>
+
+<body>
+  <h1>Free Consultation</h1>
+  <p>We are delighted to provide consultations for all your questions about our language courses!</p>
+  <form id="leadForm">
+    <input type="text" name="name" placeholder="Your name" required pattern="[A-Za-z\s]+"
+      title="Name should only contain letters and spaces." />
+    <input type="email" name="email" placeholder="Your email" required />
+    <input type="tel" name="phone" autocomplete="tel" placeholder="Your phone" pattern="^\+?[0-9]{7,15}$"
+      title="Phone number must be 7-15 digits, with an optional '+' at the beginning." />
+      <input type="text" name="spanish-level" placeholder="Your level of Spanish" />
+    <textarea name="comments" placeholder="Your question" required></textarea>
+    <label>
+      <input type="checkbox" id="privacyPolicy" required />
+      I confirm my consent to the processing of my personal data and agree to the terms of <a
+        href="https://bcnsunlight.com/privacy-policy/" target="_blank">Privacy Policy</a> and
+      <a href="https://bcnsunlight.com/terms-and-conditions/" target="_blank">Terms of Use</a>.
+    </label>
+    <button id="btn-send" type="submit">Send</button>
+  </form>
+  <script src="index.js"></script>
+</body>
+</html>
