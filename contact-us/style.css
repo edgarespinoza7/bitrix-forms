@@ -9,16 +9,16 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
+  max-width: 60%;
+  margin: auto;
 }
 
 #leadForm {
   display: flex;
   flex-flow: column;
   gap: 10px;
-  max-width: 80%;
-  padding: 30px;
   background-color: rgb(234, 234, 234);
-  max-width: 60%;
+  padding: 20px;
 }
 
 #btn-send {

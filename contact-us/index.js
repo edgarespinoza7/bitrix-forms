@@ -15,12 +15,11 @@ document.getElementById('leadForm').addEventListener('submit', async function (e
 
   const data = {
     fields: {
-      TITLE: `Free Consultation Request`,
+      TITLE: `Contact Form Submitted`,
       NAME: formData.get('name'),
       EMAIL: [{ VALUE: formData.get('email'), VALUE_TYPE: 'WORK' }],
       PHONE: [{ VALUE: formData.get('phone'), VALUE_TYPE: 'WORK' }],
       COMMENTS: formData.get('comments'),
-      // UF_CRM_1733873132: formData.get('spanish-level'),
     },
     params: { REGISTER_SONET_EVENT: 'Y' },
   };
@@ -29,7 +28,6 @@ document.getElementById('leadForm').addEventListener('submit', async function (e
   let leadName = data.fields.NAME
   let leadEmail = data.fields.EMAIL[0].VALUE
   let leadPhone = data.fields.PHONE[0].VALUE
-  // let spanishLevel = data.fields.UF_CRM_1733873132
 
 
   // Bitrix24 webhook URL
