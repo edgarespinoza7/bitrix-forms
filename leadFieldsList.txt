@@ -1,0 +1,1197 @@
+Array
+(
+    [result] => Array
+        (
+            [ID] => Array
+                (
+                    [type] => integer
+                    [isRequired] => 
+                    [isReadOnly] => 1
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => ID
+                )
+
+            [TITLE] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Lead Name
+                )
+
+            [HONORIFIC] => Array
+                (
+                    [type] => crm_status
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [statusType] => HONORIFIC
+                    [title] => Salutation
+                )
+
+            [NAME] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Name
+                )
+
+            [SECOND_NAME] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Second name
+                )
+
+            [LAST_NAME] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Last name
+                )
+
+            [BIRTHDATE] => Array
+                (
+                    [type] => date
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Date of birth
+                )
+
+            [COMPANY_TITLE] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Company name
+                )
+
+            [SOURCE_ID] => Array
+                (
+                    [type] => crm_status
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [statusType] => SOURCE
+                    [title] => Source
+                )
+
+            [SOURCE_DESCRIPTION] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Source information
+                )
+
+            [STATUS_ID] => Array
+                (
+                    [type] => crm_status
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [statusType] => STATUS
+                    [title] => Stage
+                )
+
+            [STATUS_DESCRIPTION] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => More about this stage
+                )
+
+            [STATUS_SEMANTIC_ID] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 1
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Status details
+                )
+
+            [POST] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Position
+                )
+
+            [ADDRESS] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Address
+                )
+
+            [ADDRESS_2] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Address (line 2)
+                )
+
+            [ADDRESS_CITY] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => City
+                )
+
+            [ADDRESS_POSTAL_CODE] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Zip
+                )
+
+            [ADDRESS_REGION] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Region
+                )
+
+            [ADDRESS_PROVINCE] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => State / Province
+                )
+
+            [ADDRESS_COUNTRY] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Country
+                )
+
+            [ADDRESS_COUNTRY_CODE] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Country Code
+                )
+
+            [ADDRESS_LOC_ADDR_ID] => Array
+                (
+                    [type] => integer
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Location address ID
+                )
+
+            [CURRENCY_ID] => Array
+                (
+                    [type] => crm_currency
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Currency
+                )
+
+            [OPPORTUNITY] => Array
+                (
+                    [type] => double
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Total
+                )
+
+            [IS_MANUAL_OPPORTUNITY] => Array
+                (
+                    [type] => char
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => IS_MANUAL_OPPORTUNITY
+                )
+
+            [OPENED] => Array
+                (
+                    [type] => char
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Available to everyone
+                )
+
+            [COMMENTS] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Comment
+                )
+
+            [HAS_PHONE] => Array
+                (
+                    [type] => char
+                    [isRequired] => 
+                    [isReadOnly] => 1
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Has phone
+                )
+
+            [HAS_EMAIL] => Array
+                (
+                    [type] => char
+                    [isRequired] => 
+                    [isReadOnly] => 1
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Has email
+                )
+
+            [HAS_IMOL] => Array
+                (
+                    [type] => char
+                    [isRequired] => 
+                    [isReadOnly] => 1
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Has Open Channel
+                )
+
+            [ASSIGNED_BY_ID] => Array
+                (
+                    [type] => user
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Responsible person
+                )
+
+            [CREATED_BY_ID] => Array
+                (
+                    [type] => user
+                    [isRequired] => 
+                    [isReadOnly] => 1
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Created by
+                )
+
+            [MODIFY_BY_ID] => Array
+                (
+                    [type] => user
+                    [isRequired] => 
+                    [isReadOnly] => 1
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Modified by
+                )
+
+            [MOVED_BY_ID] => Array
+                (
+                    [type] => user
+                    [isRequired] => 
+                    [isReadOnly] => 1
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => MOVED_BY_ID
+                )
+
+            [DATE_CREATE] => Array
+                (
+                    [type] => datetime
+                    [isRequired] => 
+                    [isReadOnly] => 1
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Created on
+                )
+
+            [DATE_MODIFY] => Array
+                (
+                    [type] => datetime
+                    [isRequired] => 
+                    [isReadOnly] => 1
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Modified on
+                )
+
+            [MOVED_TIME] => Array
+                (
+                    [type] => datetime
+                    [isRequired] => 
+                    [isReadOnly] => 1
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => MOVED_TIME
+                )
+
+            [COMPANY_ID] => Array
+                (
+                    [type] => crm_company
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Company
+                    [settings] => Array
+                        (
+                            [parentEntityTypeId] => 4
+                        )
+
+                )
+
+            [CONTACT_ID] => Array
+                (
+                    [type] => crm_contact
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [isDeprecated] => 1
+                    [title] => Contact
+                )
+
+            [CONTACT_IDS] => Array
+                (
+                    [type] => crm_contact
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 1
+                    [isDynamic] => 
+                    [title] => CONTACT_IDS
+                )
+
+            [IS_RETURN_CUSTOMER] => Array
+                (
+                    [type] => char
+                    [isRequired] => 
+                    [isReadOnly] => 1
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Repeat lead
+                )
+
+            [DATE_CLOSED] => Array
+                (
+                    [type] => datetime
+                    [isRequired] => 
+                    [isReadOnly] => 1
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Completed on
+                )
+
+            [ORIGINATOR_ID] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => External source
+                )
+
+            [ORIGIN_ID] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Item ID in data source
+                )
+
+            [UTM_SOURCE] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Ad system
+                )
+
+            [UTM_MEDIUM] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Medium
+                )
+
+            [UTM_CAMPAIGN] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Ad campaign UTM
+                )
+
+            [UTM_CONTENT] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Campaign contents
+                )
+
+            [UTM_TERM] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => Campaign search term
+                )
+
+            [LAST_ACTIVITY_TIME] => Array
+                (
+                    [type] => datetime
+                    [isRequired] => 
+                    [isReadOnly] => 1
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => LAST_ACTIVITY_TIME
+                )
+
+            [LAST_ACTIVITY_BY] => Array
+                (
+                    [type] => user
+                    [isRequired] => 
+                    [isReadOnly] => 1
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 
+                    [title] => LAST_ACTIVITY_BY
+                )
+
+            [PHONE] => Array
+                (
+                    [type] => crm_multifield
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 1
+                    [isDynamic] => 
+                    [title] => Phone
+                )
+
+            [EMAIL] => Array
+                (
+                    [type] => crm_multifield
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 1
+                    [isDynamic] => 
+                    [title] => E-mail
+                )
+
+            [WEB] => Array
+                (
+                    [type] => crm_multifield
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 1
+                    [isDynamic] => 
+                    [title] => Website
+                )
+
+            [IM] => Array
+                (
+                    [type] => crm_multifield
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 1
+                    [isDynamic] => 
+                    [title] => Messenger
+                )
+
+            [LINK] => Array
+                (
+                    [type] => crm_multifield
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 1
+                    [isDynamic] => 
+                    [title] => LINK
+                )
+
+            [UF_CRM_INSTAGRAM_WZ] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 1
+                    [title] => UF_CRM_INSTAGRAM_WZ
+                    [listLabel] => Instagram_WZ
+                    [formLabel] => Instagram_WZ
+                    [filterLabel] => UF_CRM_INSTAGRAM_WZ
+                    [settings] => Array
+                        (
+                            [SIZE] => 20
+                            [ROWS] => 1
+                            [REGEXP] => 
+                            [MIN_LENGTH] => 0
+                            [MAX_LENGTH] => 0
+                            [DEFAULT_VALUE] => 
+                        )
+
+                )
+
+            [UF_CRM_VK_WZ] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 1
+                    [title] => UF_CRM_VK_WZ
+                    [listLabel] => VK_WZ
+                    [formLabel] => VK_WZ
+                    [filterLabel] => UF_CRM_VK_WZ
+                    [settings] => Array
+                        (
+                            [SIZE] => 20
+                            [ROWS] => 1
+                            [REGEXP] => 
+                            [MIN_LENGTH] => 0
+                            [MAX_LENGTH] => 0
+                            [DEFAULT_VALUE] => 
+                        )
+
+                )
+
+            [UF_CRM_AVITO_WZ] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 1
+                    [title] => UF_CRM_AVITO_WZ
+                    [listLabel] => Avito_WZ
+                    [formLabel] => Avito_WZ
+                    [filterLabel] => UF_CRM_AVITO_WZ
+                    [settings] => Array
+                        (
+                            [SIZE] => 20
+                            [ROWS] => 1
+                            [REGEXP] => 
+                            [MIN_LENGTH] => 0
+                            [MAX_LENGTH] => 0
+                            [DEFAULT_VALUE] => 
+                        )
+
+                )
+
+            [UF_CRM_TELEGRAMUSERNAME_WZ] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 1
+                    [title] => UF_CRM_TELEGRAMUSERNAME_WZ
+                    [listLabel] => TelegramUsername_WZ
+                    [formLabel] => TelegramUsername_WZ
+                    [filterLabel] => UF_CRM_TELEGRAMUSERNAME_WZ
+                    [settings] => Array
+                        (
+                            [SIZE] => 20
+                            [ROWS] => 1
+                            [REGEXP] => 
+                            [MIN_LENGTH] => 0
+                            [MAX_LENGTH] => 0
+                            [DEFAULT_VALUE] => 
+                        )
+
+                )
+
+            [UF_CRM_TELEGRAMID_WZ] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 1
+                    [title] => UF_CRM_TELEGRAMID_WZ
+                    [listLabel] => TelegramId_WZ
+                    [formLabel] => TelegramId_WZ
+                    [filterLabel] => UF_CRM_TELEGRAMID_WZ
+                    [settings] => Array
+                        (
+                            [SIZE] => 20
+                            [ROWS] => 1
+                            [REGEXP] => 
+                            [MIN_LENGTH] => 0
+                            [MAX_LENGTH] => 0
+                            [DEFAULT_VALUE] => 
+                        )
+
+                )
+
+            [UF_CRM_1718723122898] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 1
+                    [title] => UF_CRM_1718723122898
+                    [listLabel] => Email
+                    [formLabel] => Email
+                    [filterLabel] => Email
+                    [settings] => Array
+                        (
+                            [SIZE] => 20
+                            [ROWS] => 1
+                            [REGEXP] => 
+                            [MIN_LENGTH] => 0
+                            [MAX_LENGTH] => 0
+                            [DEFAULT_VALUE] => 
+                        )
+
+                )
+
+            [UF_CRM_1718723281304] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 1
+                    [title] => UF_CRM_1718723281304
+                    [listLabel] => País de origen-1
+                    [formLabel] => País de origen-1
+                    [filterLabel] => País de origen-1
+                    [settings] => Array
+                        (
+                            [SIZE] => 20
+                            [ROWS] => 1
+                            [REGEXP] => 
+                            [MIN_LENGTH] => 0
+                            [MAX_LENGTH] => 0
+                            [DEFAULT_VALUE] => 
+                        )
+
+                )
+
+            [UF_CRM_1718723444831] => Array
+                (
+                    [type] => enumeration
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 1
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 669
+                                    [VALUE] => Español
+                                )
+
+                            [1] => Array
+                                (
+                                    [ID] => 671
+                                    [VALUE] => Ingles
+                                )
+
+                            [2] => Array
+                                (
+                                    [ID] => 829
+                                    [VALUE] => Catalan
+                                )
+
+                            [3] => Array
+                                (
+                                    [ID] => 731
+                                    [VALUE] => Ruso
+                                )
+
+                        )
+
+                    [title] => UF_CRM_1718723444831
+                    [listLabel] => Idioma de estudio
+                    [formLabel] => Idioma de estudio
+                    [filterLabel] => Idioma de estudio
+                    [settings] => Array
+                        (
+                            [DISPLAY] => UI
+                            [LIST_HEIGHT] => 1
+                            [CAPTION_NO_VALUE] => 
+                            [SHOW_NO_VALUE] => Y
+                        )
+
+                )
+
+            [UF_CRM_1718723597443] => Array
+                (
+                    [type] => enumeration
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 1
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 673
+                                    [VALUE] => A1
+                                )
+
+                            [1] => Array
+                                (
+                                    [ID] => 675
+                                    [VALUE] => A2
+                                )
+
+                            [2] => Array
+                                (
+                                    [ID] => 677
+                                    [VALUE] => B1.1
+                                )
+
+                            [3] => Array
+                                (
+                                    [ID] => 679
+                                    [VALUE] => B1.2
+                                )
+
+                            [4] => Array
+                                (
+                                    [ID] => 681
+                                    [VALUE] => B2.1
+                                )
+
+                            [5] => Array
+                                (
+                                    [ID] => 683
+                                    [VALUE] => B2.2
+                                )
+
+                            [6] => Array
+                                (
+                                    [ID] => 685
+                                    [VALUE] => C1
+                                )
+
+                            [7] => Array
+                                (
+                                    [ID] => 687
+                                    [VALUE] => C2
+                                )
+
+                            [8] => Array
+                                (
+                                    [ID] => 689
+                                    [VALUE] => Desconocido
+                                )
+
+                        )
+
+                    [title] => UF_CRM_1718723597443
+                    [listLabel] => Nivel
+                    [formLabel] => Nivel
+                    [filterLabel] => Nivel
+                    [settings] => Array
+                        (
+                            [DISPLAY] => UI
+                            [LIST_HEIGHT] => 1
+                            [CAPTION_NO_VALUE] => 
+                            [SHOW_NO_VALUE] => Y
+                        )
+
+                )
+
+            [UF_CRM_1718892306754] => Array
+                (
+                    [type] => enumeration
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 1
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 725
+                                    [VALUE] => Barcelona
+                                )
+
+                            [1] => Array
+                                (
+                                    [ID] => 727
+                                    [VALUE] => Valencia
+                                )
+
+                            [2] => Array
+                                (
+                                    [ID] => 1353
+                                    [VALUE] => Online
+                                )
+
+                        )
+
+                    [title] => UF_CRM_1718892306754
+                    [listLabel] => Escuela
+                    [formLabel] => Escuela
+                    [filterLabel] => Escuela
+                    [settings] => Array
+                        (
+                            [DISPLAY] => UI
+                            [LIST_HEIGHT] => 1
+                            [CAPTION_NO_VALUE] => 
+                            [SHOW_NO_VALUE] => Y
+                        )
+
+                )
+
+            [UF_CRM_1729683094697] => Array
+                (
+                    [type] => enumeration
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 1
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 1181
+                                    [VALUE] => th32nd
+                                )
+
+                        )
+
+                    [title] => UF_CRM_1729683094697
+                    [listLabel] => PROMOCODE
+                    [formLabel] => PROMOCODE
+                    [filterLabel] => PROMOCODE
+                    [settings] => Array
+                        (
+                            [DISPLAY] => UI
+                            [LIST_HEIGHT] => 1
+                            [CAPTION_NO_VALUE] => 
+                            [SHOW_NO_VALUE] => Y
+                        )
+
+                )
+
+            [UF_CRM_1729786302261] => Array
+                (
+                    [type] => enumeration
+                    [isRequired] => 1
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 1
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 1191
+                                    [VALUE] => Ruso
+                                )
+
+                            [1] => Array
+                                (
+                                    [ID] => 1197
+                                    [VALUE] => Ingles
+                                )
+
+                            [2] => Array
+                                (
+                                    [ID] => 1193
+                                    [VALUE] => Español
+                                )
+
+                            [3] => Array
+                                (
+                                    [ID] => 1195
+                                    [VALUE] => Catalan
+                                )
+
+                        )
+
+                    [title] => UF_CRM_1729786302261
+                    [listLabel] => Idioma de comunicación
+                    [formLabel] => Idioma de comunicación
+                    [filterLabel] => Idioma de comunicación
+                    [settings] => Array
+                        (
+                            [DISPLAY] => UI
+                            [LIST_HEIGHT] => 1
+                            [CAPTION_NO_VALUE] => 
+                            [SHOW_NO_VALUE] => Y
+                        )
+
+                )
+
+            [UF_CRM_LEAD_1730885559500] => Array
+                (
+                    [type] => enumeration
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 1
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 1393
+                                    [VALUE] => 2
+                                )
+
+                            [1] => Array
+                                (
+                                    [ID] => 1395
+                                    [VALUE] => 4
+                                )
+
+                            [2] => Array
+                                (
+                                    [ID] => 1397
+                                    [VALUE] => 6
+                                )
+
+                            [3] => Array
+                                (
+                                    [ID] => 1399
+                                    [VALUE] => 8
+                                )
+
+                        )
+
+                    [title] => UF_CRM_LEAD_1730885559500
+                    [listLabel] => 
+                    [formLabel] => Hours per week
+                    [filterLabel] => 
+                    [settings] => Array
+                        (
+                            [DISPLAY] => UI
+                            [LIST_HEIGHT] => 1
+                            [CAPTION_NO_VALUE] => 
+                            [SHOW_NO_VALUE] => Y
+                        )
+
+                )
+
+            [UF_CRM_1731667822739] => Array
+                (
+                    [type] => enumeration
+                    [isRequired] => 1
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 1
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 1417
+                                    [VALUE] => Corta duración
+                                )
+
+                            [1] => Array
+                                (
+                                    [ID] => 1419
+                                    [VALUE] => Larga duracíon
+                                )
+
+                            [2] => Array
+                                (
+                                    [ID] => 1499
+                                    [VALUE] => No information
+                                )
+
+                        )
+
+                    [title] => UF_CRM_1731667822739
+                    [listLabel] => Duración
+                    [formLabel] => Duración
+                    [filterLabel] => Duración
+                    [settings] => Array
+                        (
+                            [DISPLAY] => UI
+                            [LIST_HEIGHT] => 1
+                            [CAPTION_NO_VALUE] => 
+                            [SHOW_NO_VALUE] => Y
+                        )
+
+                )
+
+            [UF_CRM_1733873132] => Array
+                (
+                    [type] => string
+                    [isRequired] => 
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 1
+                    [title] => UF_CRM_1733873132
+                    [listLabel] => Spanish Level
+                    [formLabel] => Spanish Level
+                    [filterLabel] => Spanish Level
+                    [settings] => Array
+                        (
+                            [SIZE] => 20
+                            [ROWS] => 1
+                            [REGEXP] => 
+                            [MIN_LENGTH] => 0
+                            [MAX_LENGTH] => 0
+                            [DEFAULT_VALUE] => 
+                        )
+
+                )
+
+        )
+
+    [time] => Array
+        (
+            [start] => 1734002916.7453
+            [finish] => 1734002916.7728
+            [duration] => 0.027472972869873
+            [processing] => 0.010384082794189
+            [date_start] => 2024-12-12T14:28:36+03:00
+            [date_finish] => 2024-12-12T14:28:36+03:00
+            [operating_reset_at] => 1734003516
+            [operating] => 0
+        )
+
+)
