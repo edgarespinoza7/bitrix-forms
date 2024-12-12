@@ -1,71 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Contact Us</title>
-  </head>
 
-  <body>
-    <div id="form-container">
-      <h1>Contact Us!</h1>
-      <p>
-        You can always contact us, ask any questions you have or request
-        detailed information about our courses and services. We are ready to
-        help and answer all your questions. In addition, our specialists are
-        always ready to select an individual language learning course for you,
-        taking into account all your needs and wishes. Write to us, and we will
-        definitely contact you soon!
-      </p>
-      <form id="leadForm">
-        <input
-          type="text"
-          name="name"
-          placeholder="Your name"
-          required
-          pattern="[A-Za-z\s]+"
-          title="Name should only contain letters and spaces."
-        />
-        <input type="email" name="email" placeholder="Your email" required />
-        <input
-          type="tel"
-          name="phone"
-          autocomplete="tel"
-          placeholder="Your phone number"
-          pattern="^\+?[0-9]{7,15}$"
-          title="Phone number must be 7-15 digits, with an optional '+' at the beginning."
-        />
-         
-        <select name="city" id="city" required>
-          <option value="" disabled selected>What city are you interested in?</option>
-          <option value="Barcelona">Barcelona</option>
-          <option value="Valencia">Valencia</option>
-          <option value="Online">Online</option>
-        </select>
-        <textarea
-          name="comments"
-          placeholder="Your Message"
-          required
-        ></textarea>
-        <label>
-          <input type="checkbox" id="privacyPolicy" required />
-          I confirm my consent to the processing of my personal data and agree
-          to the terms of
-          <a href="https://bcnsunlight.com/privacy-policy/" target="_blank"
-            >Privacy Policy</a
-          >
-          of this website and
-          <a
-            href="https://bcnsunlight.com/terms-and-conditions/"
-            target="_blank"
-            >Terms of Use</a
-          >.
-        </label>
-        <button id="btn-send" type="submit">Send</button>
-      </form>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Contact Us</title>
+</head>
 
-    <script src="index.js"></script>
-  </body>
+<body>
+  <div id="form-container">
+    <h1>Contact Us!</h1>
+    <p>
+      You can always contact us, ask any questions you have or request
+      detailed information about our courses and services. We are ready to
+      help and answer all your questions. In addition, our specialists are
+      always ready to select an individual language learning course for you,
+      taking into account all your needs and wishes. Write to us, and we will
+      definitely contact you soon!
+    </p>
+    <form id="leadForm">
+      <input type="text" name="name" autocomplete="on" placeholder="Your name" required pattern="[A-Za-z\s]+"
+        title="Name should only contain letters and spaces." />
+      <input type="email" name="email" placeholder="Your email" required autocomplete="on" />
+      <input type="tel" name="phone" autocomplete="tel" placeholder="Your phone number" pattern="^\+?[0-9]{7,15}$"
+        title="Phone number must be 7-15 digits, with an optional '+' at the beginning." />
+
+      <select name="city" id="city" required>
+        <option value="" disabled selected>What city are you interested in?</option>
+        <option value="Barcelona">Barcelona</option>
+        <option value="Valencia">Valencia</option>
+        <option value="Online">Online</option>
+      </select>
+      <textarea name="comments" placeholder="Your Message" required></textarea>
+      <label>
+        <input type="checkbox" id="privacyPolicy" required />
+        I confirm my consent to the processing of my personal data and agree
+        to the terms of
+        <a href="https://bcnsunlight.com/privacy-policy/" target="_blank">Privacy Policy</a>
+        of this website and
+        <a href="https://bcnsunlight.com/terms-and-conditions/" target="_blank">Terms of Use</a>.
+      </label>
+      <button id="btn-send" type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
 </html>

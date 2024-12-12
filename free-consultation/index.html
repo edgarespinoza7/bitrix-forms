@@ -18,7 +18,12 @@
       <input type="email" name="email" placeholder="Your email" required />
       <input type="tel" name="phone" autocomplete="tel" placeholder="Your phone" pattern="^\+?[0-9]{7,15}$"
         title="Phone number must be 7-15 digits, with an optional '+' at the beginning." />
-      <!-- <input type="text" name="spanish-level" placeholder="Your level of Spanish" /> -->
+        <select name="city" id="city" required>
+          <option value="" disabled selected>What city are you interested in?</option>
+          <option value="Barcelona">Barcelona</option>
+          <option value="Valencia">Valencia</option>
+          <option value="Online">Online</option>
+        </select>
       <textarea name="comments" placeholder="Your question" required></textarea>
       <label>
         <input type="checkbox" id="privacyPolicy" required />

@@ -1,5 +1,3 @@
-
-
 document.getElementById('leadForm').addEventListener('submit', async function (e) {
 
   e.preventDefault(); // Prevent default form submission
@@ -13,6 +11,23 @@ document.getElementById('leadForm').addEventListener('submit', async function (e
   // Collect form data
   const formData = new FormData(e.target);
 
+  const cityMapping = {
+    Barcelona: 725,
+    Valencia: 727,
+    Online: 1353,
+  };
+
+  // Get the selected city and its corresponding ID
+  const selectedCityName = formData.get('city'); // The name attribute in the select element
+  const selectedCityId = cityMapping[selectedCityName];
+
+  if (!selectedCityId) {
+    alert('Invalid city selection. Please try again.');
+    return;
+  }
+
+
+    // Prepare the data object for Bitrix
   const data = {
     fields: {
       TITLE: `Free Consultation Request`,
@@ -20,20 +35,15 @@ document.getElementById('leadForm').addEventListener('submit', async function (e
       EMAIL: [{ VALUE: formData.get('email'), VALUE_TYPE: 'WORK' }],
       PHONE: [{ VALUE: formData.get('phone'), VALUE_TYPE: 'WORK' }],
       COMMENTS: formData.get('comments'),
-      // UF_CRM_1733873132: formData.get('spanish-level'),
+      UF_CRM_1718892306754: selectedCityId, // Send the City ID
     },
     params: { REGISTER_SONET_EVENT: 'Y' },
   };
 
-  let formName = data.fields.TITLE
-  let leadName = data.fields.NAME
-  let leadEmail = data.fields.EMAIL[0].VALUE
-  let leadPhone = data.fields.PHONE[0].VALUE
-  // let spanishLevel = data.fields.UF_CRM_1733873132
-
+  console.log('Data being sent to Bitrix:', JSON.stringify(data));
 
   // Bitrix24 webhook URL
-  const webhookUrl = `https://b24-n7l84s.bitrix24.eu/rest/83/c22p491wx673zg5x/crm.lead.add.json?FIELDS[TITLE]=${formName}&FIELDS[NAME]=${leadName}&FIELDS[EMAIL][0][VALUE]=${leadEmail}&FIELDS[EMAIL][0][VALUE_TYPE]=WORK&FIELDS[PHONE][0][VALUE]=${leadPhone}&FIELDS[PHONE][0][VALUE_TYPE]=WORK`;
+  const webhookUrl = `https://b24-n7l84s.bitrix24.eu/rest/83/c22p491wx673zg5x/crm.lead.add.json?`;
 
   try {
     const response = await fetch(webhookUrl, {
@@ -48,7 +58,7 @@ document.getElementById('leadForm').addEventListener('submit', async function (e
       console.log('Lead created successfully!');
       e.target.reset(); // Clear the form
       // Redirect to another webpage
-      window.location.href = 'https://bcnsunlight.com/thank-you/';
+      // window.location.href = 'https://bcnsunlight.com/thank-you/';
     } else {
       console.error('Error creating lead:', result);
       alert('Failed to create lead. Check the console for details.');
