@@ -58,7 +58,7 @@ document.getElementById('leadForm').addEventListener('submit', async function (e
       console.log('Lead created successfully!');
       e.target.reset(); // Clear the form
       // Redirect to another webpage
-      // window.location.href = 'https://bcnsunlight.com/thank-you/';
+      window.location.href = 'https://bcnsunlight.com/thank-you/';
     } else {
       console.error('Error creating lead:', result);
       alert('Failed to create lead. Check the console for details.');
