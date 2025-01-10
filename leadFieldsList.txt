@@ -809,7 +809,7 @@ Array
             [UF_CRM_1718723444831] => Array
                 (
                     [type] => enumeration
-                    [isRequired] => 
+                    [isRequired] => 1
                     [isReadOnly] => 
                     [isImmutable] => 
                     [isMultiple] => 
@@ -840,6 +840,24 @@ Array
                                     [VALUE] => Ruso
                                 )
 
+                            [4] => Array
+                                (
+                                    [ID] => 1523
+                                    [VALUE] => DELE
+                                )
+
+                            [5] => Array
+                                (
+                                    [ID] => 1533
+                                    [VALUE] => Nacionalidad examen
+                                )
+
+                            [6] => Array
+                                (
+                                    [ID] => 1517
+                                    [VALUE] => No información
+                                )
+
                         )
 
                     [title] => UF_CRM_1718723444831
@@ -868,53 +886,101 @@ Array
                         (
                             [0] => Array
                                 (
+                                    [ID] => 1551
+                                    [VALUE] => A1.1
+                                )
+
+                            [1] => Array
+                                (
+                                    [ID] => 1553
+                                    [VALUE] => A1.2
+                                )
+
+                            [2] => Array
+                                (
                                     [ID] => 673
                                     [VALUE] => A1
                                 )
 
-                            [1] => Array
+                            [3] => Array
+                                (
+                                    [ID] => 1555
+                                    [VALUE] => A2.1
+                                )
+
+                            [4] => Array
+                                (
+                                    [ID] => 1541
+                                    [VALUE] => A2.2
+                                )
+
+                            [5] => Array
                                 (
                                     [ID] => 675
                                     [VALUE] => A2
                                 )
 
-                            [2] => Array
+                            [6] => Array
                                 (
                                     [ID] => 677
                                     [VALUE] => B1.1
                                 )
 
-                            [3] => Array
+                            [7] => Array
                                 (
                                     [ID] => 679
                                     [VALUE] => B1.2
                                 )
 
-                            [4] => Array
+                            [8] => Array
                                 (
                                     [ID] => 681
                                     [VALUE] => B2.1
                                 )
 
-                            [5] => Array
+                            [9] => Array
                                 (
                                     [ID] => 683
                                     [VALUE] => B2.2
                                 )
 
-                            [6] => Array
+                            [10] => Array
+                                (
+                                    [ID] => 1571
+                                    [VALUE] => C1.1
+                                )
+
+                            [11] => Array
+                                (
+                                    [ID] => 1573
+                                    [VALUE] => C1.2
+                                )
+
+                            [12] => Array
                                 (
                                     [ID] => 685
                                     [VALUE] => C1
                                 )
 
-                            [7] => Array
+                            [13] => Array
+                                (
+                                    [ID] => 1575
+                                    [VALUE] => C2.1
+                                )
+
+                            [14] => Array
+                                (
+                                    [ID] => 1577
+                                    [VALUE] => C2.2
+                                )
+
+                            [15] => Array
                                 (
                                     [ID] => 687
                                     [VALUE] => C2
                                 )
 
-                            [8] => Array
+                            [16] => Array
                                 (
                                     [ID] => 689
                                     [VALUE] => Desconocido
@@ -972,7 +1038,7 @@ Array
                     [filterLabel] => Escuela
                     [settings] => Array
                         (
-                            [DISPLAY] => UI
+                            [DISPLAY] => LIST
                             [LIST_HEIGHT] => 1
                             [CAPTION_NO_VALUE] => 
                             [SHOW_NO_VALUE] => Y
@@ -1096,12 +1162,36 @@ Array
                                     [VALUE] => 8
                                 )
 
+                            [4] => Array
+                                (
+                                    [ID] => 1963
+                                    [VALUE] => 10
+                                )
+
+                            [5] => Array
+                                (
+                                    [ID] => 1965
+                                    [VALUE] => 15
+                                )
+
+                            [6] => Array
+                                (
+                                    [ID] => 1967
+                                    [VALUE] => 20
+                                )
+
+                            [7] => Array
+                                (
+                                    [ID] => 1969
+                                    [VALUE] => No lo se
+                                )
+
                         )
 
                     [title] => UF_CRM_LEAD_1730885559500
-                    [listLabel] => 
+                    [listLabel] => Hours per week
                     [formLabel] => Hours per week
-                    [filterLabel] => 
+                    [filterLabel] => Hours per week
                     [settings] => Array
                         (
                             [DISPLAY] => UI
@@ -1135,6 +1225,12 @@ Array
                                 )
 
                             [2] => Array
+                                (
+                                    [ID] => 1529
+                                    [VALUE] => Summer course
+                                )
+
+                            [3] => Array
                                 (
                                     [ID] => 1499
                                     [VALUE] => No information
@@ -1180,17 +1276,433 @@ Array
 
                 )
 
+            [UF_CRM_1734688757] => Array
+                (
+                    [type] => enumeration
+                    [isRequired] => 1
+                    [isReadOnly] => 
+                    [isImmutable] => 
+                    [isMultiple] => 
+                    [isDynamic] => 1
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [ID] => 1695
+                                    [VALUE] => NO INFORMACIÓN
+                                )
+
+                            [1] => Array
+                                (
+                                    [ID] => 1587
+                                    [VALUE] => ALEMANIA
+                                )
+
+                            [2] => Array
+                                (
+                                    [ID] => 1959
+                                    [VALUE] => ARABIA SAUDITA
+                                )
+
+                            [3] => Array
+                                (
+                                    [ID] => 1589
+                                    [VALUE] => ARGELIA
+                                )
+
+                            [4] => Array
+                                (
+                                    [ID] => 1591
+                                    [VALUE] => ARMENIA
+                                )
+
+                            [5] => Array
+                                (
+                                    [ID] => 1593
+                                    [VALUE] => ARGENTINA
+                                )
+
+                            [6] => Array
+                                (
+                                    [ID] => 1595
+                                    [VALUE] => AUSTRALIA
+                                )
+
+                            [7] => Array
+                                (
+                                    [ID] => 1597
+                                    [VALUE] => AZERBAYÁN
+                                )
+
+                            [8] => Array
+                                (
+                                    [ID] => 1599
+                                    [VALUE] => BÉLGICA
+                                )
+
+                            [9] => Array
+                                (
+                                    [ID] => 1601
+                                    [VALUE] => BIELORRUSIA
+                                )
+
+                            [10] => Array
+                                (
+                                    [ID] => 1955
+                                    [VALUE] => BOSNIA Y HERZEGOVINA
+                                )
+
+                            [11] => Array
+                                (
+                                    [ID] => 1603
+                                    [VALUE] => BRASIL
+                                )
+
+                            [12] => Array
+                                (
+                                    [ID] => 1605
+                                    [VALUE] => CANADÁ
+                                )
+
+                            [13] => Array
+                                (
+                                    [ID] => 1951
+                                    [VALUE] => CHILE
+                                )
+
+                            [14] => Array
+                                (
+                                    [ID] => 1607
+                                    [VALUE] => CHINA
+                                )
+
+                            [15] => Array
+                                (
+                                    [ID] => 1609
+                                    [VALUE] => COLOMBIA
+                                )
+
+                            [16] => Array
+                                (
+                                    [ID] => 1611
+                                    [VALUE] => COREA DEL SUR
+                                )
+
+                            [17] => Array
+                                (
+                                    [ID] => 1613
+                                    [VALUE] => DINAMARCA
+                                )
+
+                            [18] => Array
+                                (
+                                    [ID] => 1615
+                                    [VALUE] => EGIPTO
+                                )
+
+                            [19] => Array
+                                (
+                                    [ID] => 1809
+                                    [VALUE] => ESLOVENIA
+                                )
+
+                            [20] => Array
+                                (
+                                    [ID] => 1617
+                                    [VALUE] => ESPAÑA
+                                )
+
+                            [21] => Array
+                                (
+                                    [ID] => 1619
+                                    [VALUE] => ESTADOS UNIDOS
+                                )
+
+                            [22] => Array
+                                (
+                                    [ID] => 1621
+                                    [VALUE] => FEDERACIÓN DE SAN CRISTOBAL Y NIEVES
+                                )
+
+                            [23] => Array
+                                (
+                                    [ID] => 1623
+                                    [VALUE] => FILIPINAS
+                                )
+
+                            [24] => Array
+                                (
+                                    [ID] => 1625
+                                    [VALUE] => FRANCIA
+                                )
+
+                            [25] => Array
+                                (
+                                    [ID] => 1627
+                                    [VALUE] => GEORGIA
+                                )
+
+                            [26] => Array
+                                (
+                                    [ID] => 1629
+                                    [VALUE] => GRECIA
+                                )
+
+                            [27] => Array
+                                (
+                                    [ID] => 1631
+                                    [VALUE] => HUNGRÍA
+                                )
+
+                            [28] => Array
+                                (
+                                    [ID] => 1633
+                                    [VALUE] => INDIA
+                                )
+
+                            [29] => Array
+                                (
+                                    [ID] => 1635
+                                    [VALUE] => INDONESIA
+                                )
+
+                            [30] => Array
+                                (
+                                    [ID] => 1637
+                                    [VALUE] => IRAK
+                                )
+
+                            [31] => Array
+                                (
+                                    [ID] => 1639
+                                    [VALUE] => IRÁN
+                                )
+
+                            [32] => Array
+                                (
+                                    [ID] => 1641
+                                    [VALUE] => ISRAEL
+                                )
+
+                            [33] => Array
+                                (
+                                    [ID] => 1643
+                                    [VALUE] => IRLANDA
+                                )
+
+                            [34] => Array
+                                (
+                                    [ID] => 1645
+                                    [VALUE] => ITALIA
+                                )
+
+                            [35] => Array
+                                (
+                                    [ID] => 1647
+                                    [VALUE] => JAPÓN
+                                )
+
+                            [36] => Array
+                                (
+                                    [ID] => 1649
+                                    [VALUE] => KAZAJISTÁN
+                                )
+
+                            [37] => Array
+                                (
+                                    [ID] => 1807
+                                    [VALUE] => KENIA
+                                )
+
+                            [38] => Array
+                                (
+                                    [ID] => 1651
+                                    [VALUE] => KIRGUISTÁN
+                                )
+
+                            [39] => Array
+                                (
+                                    [ID] => 1653
+                                    [VALUE] => LETONIA
+                                )
+
+                            [40] => Array
+                                (
+                                    [ID] => 1655
+                                    [VALUE] => LÍBANO
+                                )
+
+                            [41] => Array
+                                (
+                                    [ID] => 1657
+                                    [VALUE] => MARRUECOS
+                                )
+
+                            [42] => Array
+                                (
+                                    [ID] => 1659
+                                    [VALUE] => MOLDAVIA
+                                )
+
+                            [43] => Array
+                                (
+                                    [ID] => 1811
+                                    [VALUE] => NEPAL
+                                )
+
+                            [44] => Array
+                                (
+                                    [ID] => 1661
+                                    [VALUE] => NIGERIA
+                                )
+
+                            [45] => Array
+                                (
+                                    [ID] => 1663
+                                    [VALUE] => PAÍSES BAJOS
+                                )
+
+                            [46] => Array
+                                (
+                                    [ID] => 1947
+                                    [VALUE] => PAQUISTÁN
+                                )
+
+                            [47] => Array
+                                (
+                                    [ID] => 1665
+                                    [VALUE] => POLONIA
+                                )
+
+                            [48] => Array
+                                (
+                                    [ID] => 1667
+                                    [VALUE] => REINO UNIDO
+                                )
+
+                            [49] => Array
+                                (
+                                    [ID] => 1669
+                                    [VALUE] => REPÚBLICA CHECA
+                                )
+
+                            [50] => Array
+                                (
+                                    [ID] => 1943
+                                    [VALUE] => RUMANIA
+                                )
+
+                            [51] => Array
+                                (
+                                    [ID] => 1671
+                                    [VALUE] => RUSIA
+                                )
+
+                            [52] => Array
+                                (
+                                    [ID] => 1673
+                                    [VALUE] => SUDÁFRICA
+                                )
+
+                            [53] => Array
+                                (
+                                    [ID] => 1675
+                                    [VALUE] => SUECIA
+                                )
+
+                            [54] => Array
+                                (
+                                    [ID] => 1677
+                                    [VALUE] => SUIZA
+                                )
+
+                            [55] => Array
+                                (
+                                    [ID] => 1679
+                                    [VALUE] => SIRIA
+                                )
+
+                            [56] => Array
+                                (
+                                    [ID] => 1681
+                                    [VALUE] => TAIWÁN
+                                )
+
+                            [57] => Array
+                                (
+                                    [ID] => 1683
+                                    [VALUE] => TAILANDIA
+                                )
+
+                            [58] => Array
+                                (
+                                    [ID] => 1685
+                                    [VALUE] => TÚNEZ
+                                )
+
+                            [59] => Array
+                                (
+                                    [ID] => 1687
+                                    [VALUE] => TURKMENISTÁN
+                                )
+
+                            [60] => Array
+                                (
+                                    [ID] => 1689
+                                    [VALUE] => TURQUÍA
+                                )
+
+                            [61] => Array
+                                (
+                                    [ID] => 1691
+                                    [VALUE] => UCRANIA
+                                )
+
+                            [62] => Array
+                                (
+                                    [ID] => 1935
+                                    [VALUE] => UGANDA
+                                )
+
+                            [63] => Array
+                                (
+                                    [ID] => 1693
+                                    [VALUE] => UZBEKISTÁN
+                                )
+
+                            [64] => Array
+                                (
+                                    [ID] => 1939
+                                    [VALUE] => VENEZUELA
+                                )
+
+                        )
+
+                    [title] => UF_CRM_1734688757
+                    [listLabel] => País de Origen (Lista - Leads)
+                    [formLabel] => País de Origen (Lista - Leads)
+                    [filterLabel] => País de Origen (Lista - Leads)
+                    [settings] => Array
+                        (
+                            [DISPLAY] => LIST
+                            [LIST_HEIGHT] => 5
+                            [CAPTION_NO_VALUE] => 
+                            [SHOW_NO_VALUE] => Y
+                        )
+
+                )
+
         )
 
     [time] => Array
         (
-            [start] => 1734002916.7453
-            [finish] => 1734002916.7728
-            [duration] => 0.027472972869873
-            [processing] => 0.010384082794189
-            [date_start] => 2024-12-12T14:28:36+03:00
-            [date_finish] => 2024-12-12T14:28:36+03:00
-            [operating_reset_at] => 1734003516
+            [start] => 1736500094.2416
+            [finish] => 1736500094.2756
+            [duration] => 0.033960103988647
+            [processing] => 0.011756896972656
+            [date_start] => 2025-01-10T12:08:14+03:00
+            [date_finish] => 2025-01-10T12:08:14+03:00
+            [operating_reset_at] => 1736500694
             [operating] => 0
         )
 

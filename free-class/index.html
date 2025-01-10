@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Free Consultation Form</title>
+  </head>
+
+  <body>
+    <div id="form-container">
+      <h1>Sign up for a Free Class</h1>
+      <form id="leadForm">
+        <input
+          type="text"
+          name="name"
+          placeholder="Your name"
+          required
+          pattern="[A-Za-z\s]+"
+          title="Name should only contain letters and spaces."
+        />
+        <input
+          type="tel"
+          name="phone"
+          autocomplete="tel"
+          placeholder="Your phone number"
+          pattern="^\+?[0-9]{7,15}$"
+          title="Phone number must be 7-15 digits, with an optional '+' at the beginning."
+        />
+        <input type="email" name="email" placeholder="Your e-mail" required />
+
+        <select name="city" id="city" required>
+          <option value="" disabled selected>
+            What city are you interested in?
+          </option>
+          <option value="Barcelona">Barcelona</option>
+          <option value="Valencia">Valencia</option>
+          <option value="Online">Online</option>
+        </select>
+
+        <select name="spanishLevel" id="spanishLevel" required>
+          <option value="" disabled selected>
+            What is your Spanish level?
+          </option>
+          <option value="from-scratch">From Scratch</option>
+          <option value="beginner-a1">Beginner - A1</option>
+          <option value="elementary-a2">Elementary - A2</option>
+          <option value="intermediate-b1">Intermediate - B1</option>
+          <option value="upper-intermediate-b2">Upper Intermediate - B2</option>
+          <option value="advance-c1">Advance - C1</option>
+          <option value="unknown">I don't know</option>
+        </select>
+
+        <select name="lessonDuration" id="lessonDuration" required>
+          <option value="" disabled selected>
+            Duration of the lessons per week
+          </option>
+          <option value="2-hours">2 hours</option>
+          <option value="4-hours">4 hours</option>
+          <option value="6-hours">6 hours</option>
+          <option value="8-hours">8 hours</option>
+          <option value="10-hours">10 hours</option>
+          <option value="15-hours">15 hours</option>
+          <option value="20-hours">20 hours</option>
+          <option value="unknown">I don't know</option>
+        </select>
+
+        <label>
+          <input type="checkbox" id="privacyPolicy" required />
+          I confirm my consent to the processing of my personal data and agree
+          to the terms of
+          <a href="https://bcnsunlight.com/privacy-policy/" target="_blank"
+            >Privacy Policy</a
+          >
+          of this website and
+          <a
+            href="https://bcnsunlight.com/terms-and-conditions/"
+            target="_blank"
+            >Terms of Use</a
+          >.
+        </label>
+        <button id="btn-send" type="submit">Send</button>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
