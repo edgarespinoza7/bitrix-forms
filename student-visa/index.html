@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Student Visa Form</title>
+  </head>
+
+  <body>
+    <div id="form-container">
+      <h1>Get Your Student Visa with Us</h1>
+      <form id="leadForm">
+        <!--Name Field-->
+        <input
+          type="text"
+          name="name"
+          placeholder="Your name"
+          required
+          pattern="[A-Za-z\s]+"
+          title="Name should only contain letters and spaces."
+        />
+        <!--Telephone Field-->
+        <input
+          type="tel"
+          name="phone"
+          autocomplete="tel"
+          placeholder="Your phone number"
+          pattern="^\+?[0-9]{7,15}$"
+          title="Phone number must be 7-15 digits, with an optional '+' at the beginning."
+        />
+        <!--E-mail Field-->
+        <input type="email" name="email" placeholder="Your e-mail" required />
+
+        <!--Nationality Field-->
+        <input
+          type="text"
+          name="nationality"
+          id="nationality"
+          placeholder="Your nationality"
+          required
+        />
+        <!--Spanish Level Field-->
+        <select name="spanishLevel" id="spanishLevel" required>
+          <option value="" disabled selected>
+            What is your Spanish level?
+          </option>
+          <option value="from-scratch">From Scratch</option>
+          <option value="beginner-a1">Beginner - A1</option>
+          <option value="elementary-a2">Elementary - A2</option>
+          <option value="intermediate-b1">Intermediate - B1</option>
+          <option value="upper-intermediate-b2">Upper Intermediate - B2</option>
+          <option value="advance-c1">Advance - C1</option>
+          <option value="unknown">I don't know</option>
+        </select>
+        <!--Duration of the Course Field-->
+        <select name="courseDuration" id="courseDuration" required>
+          <option value="" disabled selected>Duration of the course?</option>
+          <option value="8-months">6 + 2 months of vacation (8 months)</option>
+          <option value="9-months">9 months</option>
+          <option value="12-months-vacation">
+            9 months + 3 months of vacation (12 months)
+          </option>
+          <option value="12-months">12 months</option>
+          <option value="other">Other</option>
+        </select>
+        <!--City Field-->
+        <select name="city" id="city" required>
+          <option value="" disabled selected>
+            What city are you interested in?
+          </option>
+          <option value="Barcelona">Barcelona</option>
+          <option value="Valencia">Valencia</option>
+          <option value="Online">Online</option>
+        </select>
+        <!--Approximate Start Date of the Course Field-->
+        <label for="startDate">Approximate Start Date of the Course:</label>
+        <input type="date" name="startDate" id="startDate" required />
+        <!--PROMOCODE Field-->
+        <input
+          type="text"
+          name="promocode"
+          id="promocode"
+          placeholder="Enter your PROMOCODE"
+        />
+        <!--Privacy Policy Field-->
+        <label>
+          <input type="checkbox" id="privacyPolicy" required />
+          I confirm my consent to the processing of my personal data and agree
+          to the terms of
+          <a href="https://bcnsunlight.com/privacy-policy/" target="_blank"
+            >Privacy Policy</a
+          >
+          of this website and
+          <a
+            href="https://bcnsunlight.com/terms-and-conditions/"
+            target="_blank"
+            >Terms of Use</a
+          >.
+        </label>
+        <!--Send Button-->
+        <button id="btn-send" type="submit">Send</button>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
