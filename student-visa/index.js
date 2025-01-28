@@ -93,6 +93,7 @@ document
         NAME: formData.get("name"),
         EMAIL: [{ VALUE: formData.get("email"), VALUE_TYPE: "WORK" }],
         PHONE: [{ VALUE: formData.get("phone"), VALUE_TYPE: "WORK" }],
+        SOURCE_ID: "WEB", // Set "Source" field to "Web form"
         UF_CRM_1718892306754: selectedCityId, // City ID
         UF_CRM_1736502434: selectedSpanishLevelId, // Spanish Level ID
         UF_CRM_1737971459: selectedDurationId, // Course Duration ID
